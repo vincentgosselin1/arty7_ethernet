@@ -51,7 +51,7 @@ i ♥ u xilinx i ♥ u xilinx i ♥ u xilinx i ♥ u xilinx i ♥ u xilinx i ♥
  set chan [socket 192.168.1.10 7]         ;# Open the connection
   set i 0
  while {$i < 100000000000000000} {
-     puts $chan $long                        ;# Send a string
+     puts $chan "$long with $i"                        ;# Send a string
 	 flush $chan                              ;# Flush the output buffer
 	 gets $chan line
 	 #puts "received $line"
