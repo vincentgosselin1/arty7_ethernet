@@ -1,0 +1,435 @@
+
+*** Running vivado
+    with args -log design_1_xbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_xbar_0.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source design_1_xbar_0.tcl -notrace
+WARNING: [Vivado 12-9135] Ignoring repo path (C:/Users/Vincent C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.runs/design_1_xbar_0_synth_1/Gosselin/AppData/Roaming/Xilinx/Vivado/2021.1/xhub/board_store/xilinx_board_store) because it contains no board files
+Command: synth_design -top design_1_xbar_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 16024
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1234.633 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ip/design_1_xbar_0/synth/design_1_xbar_0.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_axi_crossbar' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:4884]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_crossbar' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:2239]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_si_transactor' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3800]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_addr_decoder' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_carry_and' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (1#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (2#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' (2#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' (2#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' (2#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized3' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized3' (2#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_addr_decoder' (3#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_srl_fifo' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_ndeep_srl' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135]
+INFO: [Synth 8-6157] synthesizing module 'SRLC32E' [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:101111]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (4#1) [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:101111]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_ndeep_srl' (5#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_srl_fifo' (6#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6157] synthesizing module 'MUXF7' [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:63027]
+INFO: [Synth 8-6155] done synthesizing module 'MUXF7' (7#1) [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:63027]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (8#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_si_transactor' (9#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3800]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_si_transactor__parameterized0' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3800]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (9#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_si_transactor__parameterized0' (9#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3800]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_splitter' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:4461]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_splitter' (10#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:4461]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_wdata_router' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:4736]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo' (11#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_wdata_router' (12#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:4736]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_si_transactor__parameterized1' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3800]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_srl_fifo__parameterized0' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_srl_fifo__parameterized0' (12#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_si_transactor__parameterized1' (12#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3800]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_si_transactor__parameterized2' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3800]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_srl_fifo__parameterized1' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_ndeep_srl__parameterized0' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_nto1_mux' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2890]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_nto1_mux' (13#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2890]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_ndeep_srl__parameterized0' (13#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_srl_fifo__parameterized1' (13#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_si_transactor__parameterized2' (13#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3800]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_wdata_router__parameterized0' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:4736]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized0' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_ndeep_srl__parameterized1' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_ndeep_srl__parameterized1' (13#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized0' (13#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_wdata_router__parameterized0' (13#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:4736]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_si_transactor__parameterized3' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3800]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_si_transactor__parameterized3' (13#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3800]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_addr_decoder__parameterized0' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_addr_decoder__parameterized0' (13#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_addr_decoder__parameterized1' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_addr_decoder__parameterized1' (13#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_srl_fifo__parameterized2' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_srl_fifo__parameterized2' (13#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_wdata_mux' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:4561]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized1' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized1' (13#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (13#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_wdata_mux' (14#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:4561]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_24_axi_register_slice' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/8f68/hdl/axi_register_slice_v2_1_vl_rfs.v:3726]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (15#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (16#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_24_axic_register_slice' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/8f68/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_24_axic_register_slice' (17#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/8f68/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_24_axic_register_slice__parameterized0' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/8f68/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_24_axic_register_slice__parameterized0' (17#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/8f68/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_24_axic_register_slice__parameterized1' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/8f68/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_24_axic_register_slice__parameterized1' (17#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/8f68/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_24_axic_register_slice__parameterized2' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/8f68/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_24_axic_register_slice__parameterized2' (17#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/8f68/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_24_axi_register_slice' (18#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/8f68/hdl/axi_register_slice_v2_1_vl_rfs.v:3726]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_24_axi_register_slice' is unconnected for instance 'reg_slice_mi' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3122]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_24_axi_register_slice' has 93 connections declared, but only 92 given [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3122]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_24_axi_register_slice' is unconnected for instance 'reg_slice_mi' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3122]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_24_axi_register_slice' has 93 connections declared, but only 92 given [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3122]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_24_axi_register_slice' is unconnected for instance 'reg_slice_mi' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3122]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_24_axi_register_slice' has 93 connections declared, but only 92 given [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3122]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_24_axi_register_slice' is unconnected for instance 'reg_slice_mi' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3122]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_24_axi_register_slice' has 93 connections declared, but only 92 given [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3122]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_srl_fifo__parameterized3' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_ndeep_srl__parameterized2' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_ndeep_srl__parameterized2' (18#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_srl_fifo__parameterized3' (18#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_wdata_mux__parameterized0' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:4561]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized2' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized2' (18#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_wdata_mux__parameterized0' (18#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:4561]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_24_axi_register_slice' is unconnected for instance 'reg_slice_mi' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3122]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_24_axi_register_slice' has 93 connections declared, but only 92 given [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3122]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_srl_fifo__parameterized4' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_srl_fifo__parameterized4' (18#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_wdata_mux__parameterized1' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:4561]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized3' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized3' (18#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/94ec/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_wdata_mux__parameterized1' (18#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:4561]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_24_axi_register_slice' is unconnected for instance 'reg_slice_mi' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3122]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_24_axi_register_slice' has 93 connections declared, but only 92 given [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3122]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_decerr_slave' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3501]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3633]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_decerr_slave' (19#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:3501]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_addr_arbiter' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:423]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (19#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' (19#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_addr_arbiter' (20#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:423]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_crossbar' (21#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:2239]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_axi_crossbar' (22#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ipshared/3917/hdl/axi_crossbar_v2_1_vl_rfs.v:4884]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (23#1) [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ip/design_1_xbar_0/synth/design_1_xbar_0.v:59]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 1285.105 ; gain = 50.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:39 . Memory (MB): peak = 1285.105 ; gain = 50.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:32 ; elapsed = 00:00:39 . Memory (MB): peak = 1285.105 ; gain = 50.473
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1285.105 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 414 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.gen/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.runs/design_1_xbar_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.runs/design_1_xbar_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1319.555 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.501 . Memory (MB): peak = 1332.262 ; gain = 12.707
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:54 ; elapsed = 00:01:05 . Memory (MB): peak = 1332.262 ; gain = 97.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:54 ; elapsed = 00:01:05 . Memory (MB): peak = 1332.262 ; gain = 97.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.runs/design_1_xbar_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:54 ; elapsed = 00:01:05 . Memory (MB): peak = 1332.262 ; gain = 97.629
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized2'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized3'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_axi.write_cs_reg' in module 'axi_crossbar_v2_1_25_decerr_slave'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                             1000 |                               10
+                     ONE |                             0010 |                               11
+                     TWO |                             0001 |                               01
+                  iSTATE |                             0100 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                             1000 |                               10
+                     ONE |                             0010 |                               11
+                     TWO |                             0001 |                               01
+                  iSTATE |                             0100 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                             1000 |                               10
+                     ONE |                             0010 |                               11
+                     TWO |                             0001 |                               01
+                  iSTATE |                             0100 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                             1000 |                               10
+                     ONE |                             0010 |                               11
+                     TWO |                             0001 |                               01
+                  iSTATE |                             0100 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                             1000 |                               10
+                     ONE |                             0010 |                               11
+                     TWO |                             0001 |                               01
+                  iSTATE |                             0100 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_23_axic_reg_srl_fifo__parameterized3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            P_WRITE_IDLE |                              001 |                               00
+            P_WRITE_DATA |                              010 |                               01
+            P_WRITE_RESP |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_axi.write_cs_reg' using encoding 'one-hot' in module 'axi_crossbar_v2_1_25_decerr_slave'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:58 ; elapsed = 00:01:10 . Memory (MB): peak = 1332.262 ; gain = 97.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    6 Bit       Adders := 6     
+	   2 Input    5 Bit       Adders := 9     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 3     
+	   2 Input    2 Bit       Adders := 19    
+	   2 Input    1 Bit       Adders := 4     
++---XORs : 
+	   2 Input      1 Bit         XORs := 19    
++---Registers : 
+	              133 Bit    Registers := 12    
+	               65 Bit    Registers := 2     
+	                8 Bit    Registers := 3     
+	                6 Bit    Registers := 9     
+	                5 Bit    Registers := 9     
+	                4 Bit    Registers := 11    
+	                3 Bit    Registers := 15    
+	                2 Bit    Registers := 34    
+	                1 Bit    Registers := 66    
++---Muxes : 
+	   2 Input  134 Bit        Muxes := 3     
+	   2 Input  133 Bit        Muxes := 12    
+	   2 Input   48 Bit        Muxes := 12    
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 11    
+	   2 Input    5 Bit        Muxes := 5     
+	   2 Input    4 Bit        Muxes := 30    
+	   3 Input    4 Bit        Muxes := 8     
+	   2 Input    3 Bit        Muxes := 18    
+	   2 Input    2 Bit        Muxes := 41    
+	   2 Input    1 Bit        Muxes := 157   
+	   4 Input    1 Bit        Muxes := 24    
+	   3 Input    1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:24 ; elapsed = 00:01:39 . Memory (MB): peak = 1332.262 ; gain = 97.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:38 ; elapsed = 00:01:56 . Memory (MB): peak = 1332.262 ; gain = 97.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:46 ; elapsed = 00:02:06 . Memory (MB): peak = 1332.262 ; gain = 97.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:54 ; elapsed = 00:02:14 . Memory (MB): peak = 1332.477 ; gain = 97.844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:04 ; elapsed = 00:02:25 . Memory (MB): peak = 1345.230 ; gain = 110.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:04 ; elapsed = 00:02:25 . Memory (MB): peak = 1345.230 ; gain = 110.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:05 ; elapsed = 00:02:27 . Memory (MB): peak = 1345.230 ; gain = 110.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:05 ; elapsed = 00:02:27 . Memory (MB): peak = 1345.230 ; gain = 110.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:06 ; elapsed = 00:02:27 . Memory (MB): peak = 1345.230 ; gain = 110.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:06 ; elapsed = 00:02:28 . Memory (MB): peak = 1345.230 ; gain = 110.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |LUT1    |    18|
+|2     |LUT2    |   231|
+|3     |LUT3    |  1008|
+|4     |LUT4    |   139|
+|5     |LUT5    |   915|
+|6     |LUT6    |   617|
+|7     |MUXF7   |   399|
+|8     |SRLC32E |    20|
+|9     |FDRE    |  1706|
+|10    |FDSE    |    46|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:06 ; elapsed = 00:02:28 . Memory (MB): peak = 1345.230 ; gain = 110.598
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:22 ; elapsed = 00:02:14 . Memory (MB): peak = 1345.230 ; gain = 63.441
+Synthesis Optimization Complete : Time (s): cpu = 00:02:06 ; elapsed = 00:02:28 . Memory (MB): peak = 1345.230 ; gain = 110.598
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.651 . Memory (MB): peak = 1345.230 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 399 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1361.004 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: ec78a117
+INFO: [Common 17-83] Releasing license: Synthesis
+144 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:19 ; elapsed = 00:02:44 . Memory (MB): peak = 1361.004 ; gain = 126.371
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.runs/design_1_xbar_0_synth_1/design_1_xbar_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_xbar_0, cache-ID = 1ae11097a02bef38
+INFO: [Coretcl 2-1174] Renamed 72 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/arty7_ethernet_v1.runs/design_1_xbar_0_synth_1/design_1_xbar_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_xbar_0_utilization_synth.rpt -pb design_1_xbar_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 11 10:35:34 2021...
