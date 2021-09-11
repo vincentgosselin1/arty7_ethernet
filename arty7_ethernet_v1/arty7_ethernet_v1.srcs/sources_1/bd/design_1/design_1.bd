@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x3C74BA0D8083B76B",
+      "boundary_crc": "0x7D7238366079B93C",
       "device": "xc7a100tcsg324-1",
       "gen_directory": "../../../../arty7_ethernet_v1.gen/sources_1/bd/design_1",
       "name": "design_1",

@@ -1,0 +1,8 @@
+Nothing to build in platform 'design_1_wrapper'
+
+11:54:53 **** Incremental Build of configuration Debug for project arty7_ethernet_app ****
+make all 
+make: Nothing to be done for 'all'.
+11:54:54 **** Incremental Build of configuration Debug for project arty7_ethernet_app_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
