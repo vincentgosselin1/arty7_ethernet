@@ -66,7 +66,13 @@ err_t recv_callback(void *arg, struct tcp_pcb *tpcb,
 	/* in this case, we assume that the payload is < TCP_SND_BUF */
 	if (tcp_sndbuf(tpcb) > p->len) {
 		err = tcp_write(tpcb, p->payload, p->len, 1);
-		xil_printf("%s",p->payload);
+		//payload starts here, the string i send with TCL.
+		//char[80] string_received = (char *) p->payload;
+		char* string_received = (char*)p->payload;
+		//if(strcmp (p->payload,buffer){}
+		//xil_printf("%s",p->payload);
+		xil_printf("%s",string_received);
+
 	} else
 		xil_printf("no space in tcp_sndbuf\n\r");
 

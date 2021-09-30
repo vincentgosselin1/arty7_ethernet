@@ -1,6 +1,6 @@
 Nothing to build in platform 'design_1_wrapper'
 
-19:15:02 **** Incremental Build of configuration Debug for project arty7_ethernet_app ****
+19:29:00 **** Incremental Build of configuration Debug for project arty7_ethernet_app ****
 make all 
 'Building file: ../src/echo.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -15,9 +15,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Xilinx/Vivado/2021.1/myDev/arty7_ethern
 'Invoking: MicroBlaze Print Size'
 mb-size arty7_ethernet_app.elf  |tee "arty7_ethernet_app.elf.size"
    text	   data	    bss	    dec	    hex	filename
- 134416	   1796	3962284	4098496	 3e89c0	arty7_ethernet_app.elf
+ 134420	   1796	3962288	4098504	 3e89c8	arty7_ethernet_app.elf
 'Finished building: arty7_ethernet_app.elf.size'
 ' '
-19:15:04 **** Incremental Build of configuration Debug for project arty7_ethernet_app_system ****
+19:29:01 **** Incremental Build of configuration Debug for project arty7_ethernet_app_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
