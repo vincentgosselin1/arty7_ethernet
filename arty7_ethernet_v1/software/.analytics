@@ -15,3 +15,25 @@ timestamp=[2021-09-11 11:54:36], mode=BUILD, duration=0:00:01.041, duration_ms=1
 timestamp=[2021-09-11 11:54:37], mode=BUILD, duration=0:00:00.209, duration_ms=209, data={name=arty7_ethernet_app_system, configuration=Debug, clean_build=false}
 timestamp=[2021-09-11 11:54:53], mode=BUILD, duration=0:00:00.267, duration_ms=267, data={name=arty7_ethernet_app, configuration=Debug, clean_build=false}
 timestamp=[2021-09-11 11:54:54], mode=BUILD, duration=0:00:00.195, duration_ms=195, data={name=arty7_ethernet_app_system, configuration=Debug, clean_build=false}
+timestamp=[2021-09-12 21:49:15], mode=WORKBENCH_START, duration=0:00:10.615, duration_ms=10615, data={}
+timestamp=[2021-09-12 21:49:17], mode=WORKBENCH_UI_INIT, duration=0:00:01.579, duration_ms=1579, data={editors_count=5, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,arty7_ethernet_app,arty7_ethernet_app_system,design_1_wrapper}
+timestamp=[2021-09-12 21:49:17], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.215, duration_ms=215, data={}
+timestamp=[2021-09-30 18:57:23], mode=WORKBENCH_START, duration=0:00:16.771, duration_ms=16771, data={}
+timestamp=[2021-09-30 18:57:26], mode=WORKBENCH_UI_INIT, duration=0:00:03.581, duration_ms=3581, data={editors_count=5, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,arty7_ethernet_app,arty7_ethernet_app_system,design_1_wrapper}
+timestamp=[2021-09-30 18:57:31], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.350, duration_ms=350, data={}
+timestamp=[2021-09-30 18:58:36], mode=PLATFORM_GENERATION, duration=0:00:11.764, duration_ms=11764, data={name=design_1_wrapper}
+timestamp=[2021-09-30 18:58:37], mode=BUILD, duration=0:00:00.373, duration_ms=373, data={name=arty7_ethernet_app, configuration=Debug, clean_build=false}
+timestamp=[2021-09-30 18:58:38], mode=BUILD, duration=0:00:00.440, duration_ms=440, data={name=arty7_ethernet_app_system, configuration=Debug, clean_build=false}
+timestamp=[2021-09-30 19:02:55], mode=BUILD, duration=0:00:00.839, duration_ms=839, data={name=arty7_ethernet_app, configuration=Debug, clean_build=false}
+timestamp=[2021-09-30 19:03:16], mode=BUILD, duration=0:00:01.345, duration_ms=1345, data={name=arty7_ethernet_app, configuration=Debug, clean_build=false}
+timestamp=[2021-09-30 19:03:16], mode=BUILD, duration=0:00:00.184, duration_ms=184, data={name=arty7_ethernet_app_system, configuration=Debug, clean_build=false}
+timestamp=[2021-09-30 19:06:45], mode=BUILD, duration=0:00:01.050, duration_ms=1050, data={name=arty7_ethernet_app, configuration=Debug, clean_build=false}
+timestamp=[2021-09-30 19:06:46], mode=BUILD, duration=0:00:00.206, duration_ms=206, data={name=arty7_ethernet_app_system, configuration=Debug, clean_build=false}
+timestamp=[2021-09-30 19:07:15], mode=BUILD, duration=0:00:00.265, duration_ms=265, data={name=arty7_ethernet_app, configuration=Debug, clean_build=false}
+timestamp=[2021-09-30 19:07:15], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=arty7_ethernet_app_system, configuration=Debug, clean_build=false}
+timestamp=[2021-09-30 19:13:21], mode=BUILD, duration=0:00:01.043, duration_ms=1043, data={name=arty7_ethernet_app, configuration=Debug, clean_build=false}
+timestamp=[2021-09-30 19:13:22], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=arty7_ethernet_app_system, configuration=Debug, clean_build=false}
+timestamp=[2021-09-30 19:14:00], mode=BUILD, duration=0:00:00.251, duration_ms=251, data={name=arty7_ethernet_app, configuration=Debug, clean_build=false}
+timestamp=[2021-09-30 19:14:00], mode=BUILD, duration=0:00:00.184, duration_ms=184, data={name=arty7_ethernet_app_system, configuration=Debug, clean_build=false}
+timestamp=[2021-09-30 19:15:03], mode=BUILD, duration=0:00:00.994, duration_ms=994, data={name=arty7_ethernet_app, configuration=Debug, clean_build=false}
+timestamp=[2021-09-30 19:15:04], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=arty7_ethernet_app_system, configuration=Debug, clean_build=false}

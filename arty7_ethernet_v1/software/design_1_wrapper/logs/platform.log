@@ -1867,3 +1867,515 @@ TRACE::2021-09-11.11:16:28::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/Vivado/2021.
 
 TRACE::2021-09-11.11:16:28::SCWMssOS::Sw design exists and opened at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
 TRACE::2021-09-11.11:16:28::SCWMssOS::Removing the swdes entry for  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened new HwDB with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWReader::Active system found as  design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWReader::Handling sysconfig design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWDomain::checking for install qemu data   : 
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:27::SCWMssOS::Checking the sw design at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-09-30.18:58:27::SCWMssOS::No sw design opened at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::mss exists loading the mss file  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::Opened the sw design from mss  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::Adding the swdes entry C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2021-09-30.18:58:27::SCWMssOS::updating the scw layer about changes
+TRACE::2021-09-30.18:58:27::SCWMssOS::Opened the sw design.  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:27::SCWMssOS::Checking the sw design at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-09-30.18:58:27::SCWMssOS::Sw design exists and opened at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS:: library already available in sw design:  lwip211:1.5
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:27::SCWMssOS::Checking the sw design at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-09-30.18:58:27::SCWMssOS::Sw design exists and opened at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:27::SCWMssOS::Checking the sw design at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-09-30.18:58:27::SCWMssOS::Sw design exists and opened at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:27::SCWMssOS::Checking the sw design at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-09-30.18:58:27::SCWMssOS::Sw design exists and opened at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:27::SCWMssOS::Checking the sw design at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-09-30.18:58:27::SCWMssOS::Sw design exists and opened at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:27::SCWMssOS::Checking the sw design at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-09-30.18:58:27::SCWMssOS::Sw design exists and opened at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:27::SCWMssOS::Checking the sw design at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-09-30.18:58:27::SCWMssOS::Sw design exists and opened at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:27::SCWMssOS::Checking the sw design at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-09-30.18:58:27::SCWMssOS::Sw design exists and opened at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:27::SCWMssOS::Checking the sw design at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-09-30.18:58:27::SCWMssOS::Sw design exists and opened at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::Saving the mss changes C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-09-30.18:58:27::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-09-30.18:58:27::SCWMssOS::Commit changes completed.
+TRACE::2021-09-30.18:58:27::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2021-09-30.18:58:27::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:27::SCWMssOS::Checking the sw design at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-09-30.18:58:27::SCWMssOS::Sw design exists and opened at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWReader::No isolation master present  
+LOG::2021-09-30.18:58:27::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-09-30.18:58:27::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2021-09-30.18:58:27::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2021-09-30.18:58:27::SCWSystem::Not a boot domain 
+LOG::2021-09-30.18:58:27::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2021-09-30.18:58:27::SCWDomain::Generating domain artifcats
+TRACE::2021-09-30.18:58:27::SCWMssOS::Generating standalone artifcats
+TRACE::2021-09-30.18:58:27::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:27::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:27::SCWMssOS::Checking the sw design at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-09-30.18:58:27::SCWMssOS::Sw design exists and opened at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::Completed writing the mss file at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2021-09-30.18:58:27::SCWMssOS::Mss edits present, copying mssfile into export location C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:27::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-09-30.18:58:27::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-09-30.18:58:27::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2021-09-30.18:58:27::SCWMssOS::doing bsp build ... 
+TRACE::2021-09-30.18:58:27::SCWMssOS::System Command Ran  C: & cd  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2021-09-30.18:58:28::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2021-09-30.18:58:28::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_6/src"
+
+TRACE::2021-09-30.18:58:28::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-09-30.18:58:28::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-09-30.18:58:28::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:28::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_13/src"
+
+TRACE::2021-09-30.18:58:28::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-09-30.18:58:28::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-09-30.18:58:28::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:28::SCWMssOS::"Running Make include in microblaze_0/libsrc/emaclite_v4_6/src"
+
+TRACE::2021-09-30.18:58:28::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-09-30.18:58:28::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-09-30.18:58:28::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:28::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2021-09-30.18:58:28::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-09-30.18:58:28::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-09-30.18:58:28::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:28::SCWMssOS::"Running Make include in microblaze_0/libsrc/lwip211_v1_5/src"
+
+TRACE::2021-09-30.18:58:28::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2021-09-30.18:58:28::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2021-09-30.18:58:28::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:30::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_5/src"
+
+TRACE::2021-09-30.18:58:30::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2021-09-30.18:58:30::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2021-09-30.18:58:30::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_8/src"
+
+TRACE::2021-09-30.18:58:31::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2021-09-30.18:58:31::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2021-09-30.18:58:31::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2021-09-30.18:58:31::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-09-30.18:58:31::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-09-30.18:58:31::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:31::SCWMssOS::"Running Make libs in microblaze_0/libsrc/lwip211_v1_5/src"
+
+TRACE::2021-09-30.18:58:31::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-09-30.18:58:31::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-09-30.18:58:31::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:31::SCWMssOS::"Compiling lwip src and adapter files"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_6/src"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_13/src"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-09-30.18:58:32::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-09-30.18:58:32::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-09-30.18:58:32::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-09-30.18:58:32::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/emaclite_v4_6/src"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-09-30.18:58:32::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-09-30.18:58:32::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/lwip211_v1_5/src"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-09-30.18:58:32::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-09-30.18:58:32::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2021-09-30.18:58:32::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2021-09-30.18:58:32::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_5/src"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2021-09-30.18:58:32::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2021-09-30.18:58:32::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_8/src"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2021-09-30.18:58:32::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2021-09-30.18:58:32::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2021-09-30.18:58:32::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-09-30.18:58:32::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-09-30.18:58:32::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_6/src"
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2021-09-30.18:58:33::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2021-09-30.18:58:33::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_13/src"
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_13/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2021-09-30.18:58:33::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2021-09-30.18:58:33::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::"Running Make libs in microblaze_0/libsrc/emaclite_v4_6/src"
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-09-30.18:58:33::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-09-30.18:58:33::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2021-09-30.18:58:33::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2021-09-30.18:58:33::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_5/src"
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2021-09-30.18:58:33::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2021-09-30.18:58:33::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_8/src"
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2021-09-30.18:58:33::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2021-09-30.18:58:33::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-09-30.18:58:33::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-09-30.18:58:33::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::make --no-print-directory archive
+
+TRACE::2021-09-30.18:58:33::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2021-09-30.18:58:33::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/xemaclite_intr.o microblaze_0/lib/xtmrctr_options.o microblaze_0
+TRACE::2021-09-30.18:58:33::SCWMssOS::/lib/_exit.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_flush_dcach
+TRACE::2021-09-30.18:58:33::SCWMssOS::e_range.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/lib/xil_misc_psreset_ap
+TRACE::2021-09-30.18:58:33::SCWMssOS::i.o microblaze_0/lib/xtmrctr.o microblaze_0/lib/xil_cache.o microblaze_0/lib/inbyte.o microblaze_0/lib/xbram_g.o microblaze_0/l
+TRACE::2021-09-30.18:58:33::SCWMssOS::ib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/microblaze
+TRACE::2021-09-30.18:58:33::SCWMssOS::_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbra
+TRACE::2021-09-30.18:58:33::SCWMssOS::m_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xil_
+TRACE::2021-09-30.18:58:33::SCWMssOS::mem.o microblaze_0/lib/xemaclite.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microb
+TRACE::2021-09-30.18:58:33::SCWMssOS::laze_0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xintc_g.o microblaze_
+TRACE::2021-09-30.18:58:33::SCWMssOS::0/lib/xuartlite_g.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte.o microblaze_0/lib/xt
+TRACE::2021-09-30.18:58:33::SCWMssOS::mrctr_intr.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaz
+TRACE::2021-09-30.18:58:33::SCWMssOS::e_0/lib/microblaze_update_icache.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib
+TRACE::2021-09-30.18:58:33::SCWMssOS::/xuartlite_selftest.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_
+TRACE::2021-09-30.18:58:33::SCWMssOS::selftest.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/xemaclite_g.o microblaze_0/lib/microblaze_enable_excepti
+TRACE::2021-09-30.18:58:33::SCWMssOS::ons.o microblaze_0/lib/xio.o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xbram.o 
+TRACE::2021-09-30.18:58:33::SCWMssOS::microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/microblaze_init_dcac
+TRACE::2021-09-30.18:58:33::SCWMssOS::he_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0
+TRACE::2021-09-30.18:58:33::SCWMssOS::/lib/xil_util.o microblaze_0/lib/xintc_options.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/xint
+TRACE::2021-09-30.18:58:33::SCWMssOS::c_intr.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xil_testmem.o mi
+TRACE::2021-09-30.18:58:33::SCWMssOS::croblaze_0/lib/xemaclite_l.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_as
+TRACE::2021-09-30.18:58:33::SCWMssOS::sert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/xemaclite_sinit.o microblaze_0/lib/microblaze_enable_ic
+TRACE::2021-09-30.18:58:33::SCWMssOS::ache.o microblaze_0/lib/xintc.o microblaze_0/lib/xemaclite_selftest.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xtmrctr
+TRACE::2021-09-30.18:58:33::SCWMssOS::_sinit.o microblaze_0/lib/fcntl.o microblaze_0/lib/microblaze_init_icache_range.o
+
+TRACE::2021-09-30.18:58:34::SCWMssOS::'Finished building libraries'
+
+TRACE::2021-09-30.18:58:35::SCWMssOS::Copying to export directory.
+TRACE::2021-09-30.18:58:36::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-09-30.18:58:36::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-09-30.18:58:36::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2021-09-30.18:58:36::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2021-09-30.18:58:36::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2021-09-30.18:58:36::SCWPlatform::Started preparing the platform 
+TRACE::2021-09-30.18:58:36::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2021-09-30.18:58:36::SCWSystem::dir created 
+TRACE::2021-09-30.18:58:36::SCWSystem::Writing the bif 
+TRACE::2021-09-30.18:58:36::SCWPlatform::Started writing the spfm file 
+TRACE::2021-09-30.18:58:36::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-09-30.18:58:36::SCWPlatform::Completed generating the platform
+TRACE::2021-09-30.18:58:36::SCWMssOS::Saving the mss changes C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:36::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-09-30.18:58:36::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-09-30.18:58:36::SCWMssOS::Commit changes completed.
+TRACE::2021-09-30.18:58:36::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:36::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:36::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:36::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:36::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:36::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:36::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:36::SCWMssOS::Checking the sw design at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:36::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-09-30.18:58:36::SCWMssOS::Sw design exists and opened at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:36::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"0c77cff708bccc68aa4fe3b24c91589a",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip211:1.5"],
+					"libOptions":	{
+						"lwip211":	{
+							"dhcp_does_arp_check":	"true",
+							"lwip_dhcp":	"true",
+							"pbuf_pool_size":	"2048",
+							"phy_link_speed":	"CONFIG_LINKSPEED100",
+							"libOptionNames":	["dhcp_does_arp_check", "lwip_dhcp", "pbuf_pool_size", "phy_link_speed"]
+						},
+						"libsContainingOptions":	["lwip211"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-09-30.18:58:36::SCWPlatform::updated the xpfm file.
+TRACE::2021-09-30.18:58:36::SCWPlatform::Trying to open the hw design at C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:36::SCWPlatform::DSA given C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:36::SCWPlatform::DSA absoulate path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:36::SCWPlatform::DSA directory C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw
+TRACE::2021-09-30.18:58:36::SCWPlatform:: Platform Path C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-09-30.18:58:36::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2021-09-30.18:58:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2021-09-30.18:58:36::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2021-09-30.18:58:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-09-30.18:58:36::SCWMssOS::Checking the sw design at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-09-30.18:58:36::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-09-30.18:58:36::SCWMssOS::Sw design exists and opened at  C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss

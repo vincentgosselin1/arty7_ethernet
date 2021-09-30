@@ -238,6 +238,7 @@ int main()
 		}
 		xemacif_input(echo_netif);
 		transfer_data();
+
 	}
 
 	/* never reached */

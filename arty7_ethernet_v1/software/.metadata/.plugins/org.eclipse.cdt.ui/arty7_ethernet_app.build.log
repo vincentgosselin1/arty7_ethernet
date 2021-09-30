@@ -1,6 +1,21 @@
-11:54:53 **** Incremental Build of configuration Debug for project arty7_ethernet_app ****
+19:15:02 **** Incremental Build of configuration Debug for project arty7_ethernet_app ****
 make all 
-make: Nothing to be done for 'all'.
+'Building file: ../src/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -IC:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/software/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building target: arty7_ethernet_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/software/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "arty7_ethernet_app.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: arty7_ethernet_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size arty7_ethernet_app.elf  |tee "arty7_ethernet_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 134416	   1796	3962284	4098496	 3e89c0	arty7_ethernet_app.elf
+'Finished building: arty7_ethernet_app.elf.size'
+' '
 
-11:54:53 Build Finished (took 255ms)
+19:15:03 Build Finished (took 979ms)
 

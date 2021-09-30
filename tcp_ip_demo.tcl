@@ -56,5 +56,6 @@ i ♥ u xilinx i ♥ u xilinx i ♥ u xilinx i ♥ u xilinx i ♥ u xilinx i ♥
 	 gets $chan line
 	 #puts "received $line"
 	 incr i
+	 after 100
 }
 close $chan                              ;# Close the socket
