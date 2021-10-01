@@ -1,6 +1,6 @@
-19:29:01 **** Incremental Build of configuration Debug for project arty7_ethernet_app_system ****
+20:48:51 **** Incremental Build of configuration Debug for project arty7_ethernet_app_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
 
-19:29:01 Build Finished (took 185ms)
+20:48:51 Build Finished (took 195ms)
 

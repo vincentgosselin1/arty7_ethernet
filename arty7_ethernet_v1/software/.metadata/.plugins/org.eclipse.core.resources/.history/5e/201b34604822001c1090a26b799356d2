@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="arty7_ethernet_app" location="C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/software/arty7_ethernet_app" platform="C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v1/arty7_ethernet_v1/software/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm" platformUID="xilinx:arty-a7-100::0.0(custom)" systemProject="arty7_ethernet_app_system" sysConfig="design_1_wrapper" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="e3bae24f55169492c4500aa090fe5703">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.481132747">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1673233489" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="lwip_echo_server" hasBspSettings="true"/>
+</sdkproject:SdkProject>

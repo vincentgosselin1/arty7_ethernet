@@ -69,9 +69,26 @@ err_t recv_callback(void *arg, struct tcp_pcb *tpcb,
 		//payload starts here, the string i send with TCL.
 		//char[80] string_received = (char *) p->payload;
 		char* string_received = (char*)p->payload;
-		//if(strcmp (p->payload,buffer){}
+		char s1[15] = "poke 0x00 0x01\r" ;
+		char s2[15] = "poke 0x00 0x00\r" ;
+		//std::string str = string_received;
+		char new_string_received[15] = "";
+		for(int i = 0;i<15;i++){
+			new_string_received[i] = string_received[i];
+		}
+		if(strcmp (new_string_received, s1) == 0){
+			//xil_printf("%s",string_received);
+			xil_printf("bingo");
+		} else if(strcmp (new_string_received, s2) == 0){
+			xil_printf("bongo");
+		} else {
+			xil_printf("invalid");
+		}
 		//xil_printf("%s",p->payload);
-		xil_printf("%s",string_received);
+
+
+
+		//xil_printf("%s",string_received);
 
 	} else
 		xil_printf("no space in tcp_sndbuf\n\r");

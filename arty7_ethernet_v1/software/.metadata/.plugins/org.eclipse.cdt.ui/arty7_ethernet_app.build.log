@@ -1,4 +1,4 @@
-19:29:00 **** Incremental Build of configuration Debug for project arty7_ethernet_app ****
+20:48:49 **** Incremental Build of configuration Debug for project arty7_ethernet_app ****
 make all 
 'Building file: ../src/echo.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -13,9 +13,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Xilinx/Vivado/2021.1/myDev/arty7_ethern
 'Invoking: MicroBlaze Print Size'
 mb-size arty7_ethernet_app.elf  |tee "arty7_ethernet_app.elf.size"
    text	   data	    bss	    dec	    hex	filename
- 134420	   1796	3962288	4098504	 3e89c8	arty7_ethernet_app.elf
+ 134788	   1796	3962288	4098872	 3e8b38	arty7_ethernet_app.elf
 'Finished building: arty7_ethernet_app.elf.size'
 ' '
 
-19:29:01 Build Finished (took 964ms)
+20:48:50 Build Finished (took 978ms)
 

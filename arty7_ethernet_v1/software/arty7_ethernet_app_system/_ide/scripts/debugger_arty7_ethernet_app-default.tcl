@@ -20,5 +20,4 @@ rst -system
 after 3000
 targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
 dow C:/Xilinx/Vivado/2021.1/myDev/arty7_ethernet_v2/arty7_ethernet_v1/software/arty7_ethernet_app/Debug/arty7_ethernet_app.elf
-targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
-con
+bpadd -addr &main
